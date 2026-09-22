@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            나의 웹 프로필
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            나의 웹 프로필
+        </h1>
+        <p>HTML 기본 태그를 활용하여 만든 웹페이지 입니다.</p>
+        <hr>
+        <a href="#a1">소개</a>
+        <a href="#a2">관심 분야</a>
+        <a href="#a3">학습 계획</a>
+        <a href="#a4">문의하기</a>
+        <hr>
+
+        <h2 id="a1">1. 자기소개</h2>
+        <h4>안녕하세요!</h4>
+        <p>저는 <b>웹프로그래밍</b>을 공부하고 있습니다.</p>
+
+        <p>현재 <b>HTMl5</b>의 기본 구조와 다양한 태그를 학습하고 있습니다.</p>
+
+        <p>앞으로 CSS와 JavaScript도 공부할 예정입니다.</p>
+
+        <img src="\exer01_html_basic\고양이이미지.webp" alt="고양이 이미지" width="300">
+
+        <h2 id="a2">2. 관심 분야</h2>
+        <h4>관심 있는 기술</h4>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+        
+        <h4>학습 순서</h4>
+        <ol>
+            <li>HTML 배우기</li>
+            <li>CSS 배우기</li>
+            <li>JavaScript 배우기</li>
+            <li>웹 프로젝트 배우기</li>
+        </ol>
+        
+        <h2 id="a3">3. 학습 계획</h2>
+        <table border="1">
+            <thead>
+                <th>주차</th>
+                </td>
+                <th>학습 내용</th>
+                <th>상태</th>
+            </thead>
+            <tbody>
+                <td>1주차</td>
+                <td>HTML 기본</td>
+                <td>학습 완료</td>
+                <tr><td>2주차</td>
+                    <td>CSS 기본</td>
+                    <td>학습 예정</td>
+                </tr>
+                <tr><td>3주차</td>
+                    <td>JavaScript 기본</td>
+                    <td>학습 예정</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="a4">4. 문의하기</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name"><b>이름</b></label></td>
+                    <tr></tr>
+                    <td><input id="name" type="text" value="이름을 입력하세요"></label></td>
+                </tr>  
+
+                <tr>
+                   <td><label for="password"><b>비밀번호</b></label></td>
+                   <tr></tr>
+                    <td><input id="password" type="password"></label></td>
+                </tr>
+
+                <tr>
+                   <td><label for="email"><b>이메일</b></label></td>
+                   <tr></tr>
+                    <td><input id="email" type="email" value="example@email.com"></label></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label><b>생년월일</b></label><br>
+                        <input type="date">
+                    </td>
+                </tr>
+
+                <tr>
+                   <td><label></label><b>학년</b></label></td>
+                   <tr></tr>
+                    <td><input id="grade" type="text"></label></td>
+                </tr>
+                <tr>
+                    <td><label>관심분야</label></td>
+                    <tr>
+                    <td><input type="radio">프론트엔드</td>
+                    <td><input type="radio">백엔드</td>
+                    <td><input type="radio">AI</td>
+                    </tr>
+                </tr>
+
+               
+
+                <tr>
+                    <td><label>배우고 싶은 기술</label></td>
+                    <tr>
+                    <td><input type="checkbox">HTML</td>
+                    <td><input type="checkbox">CSS</td>
+                    <td><input type="checkbox">JavaScript</td>
+                    </tr>
+                </tr>
+
+                <tr>
+                    <td>웹 프로그래밍 수준</td>
+                    <tr>
+                        <td><select>
+                            <option>초급</option>
+                            <option>중급</option>
+                            <option>고급</option>
+                        </select></td>
+                    </tr>
+                </tr>
+                
+                <tr>
+                    <td>문의내용</td>
+                    <tr><td>
+                        <textarea cols="30" rows="5">문의 내용을 입력하세요</textarea>
+                    </td></tr>
+                
+                </tr>
+                
+                <tr><td>
+                    <input type="submit" value="제출">
+                    <input type="submit" value="초기화">
+                </td></tr>
+            </table>           
+        </form>
+
+        <h3>참고 사이트</h5>
+        <a>HTML에 대해 더 공부하고 싶다면?</a>
+        <hr>
+        <a>Copyright 2026 Web Programming</a><br>
+        <a>HTML 종합 실습 페이지</a>
+        
+    </body>
+</html>
