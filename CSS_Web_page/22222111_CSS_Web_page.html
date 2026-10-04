@@ -7,7 +7,7 @@
     <style>
         body {
             width: 700px;
-            height: 1000px;
+            height: 1400px;
             background-color: gainsboro;
             
             border: 5px solid plum;
@@ -52,11 +52,11 @@
             padding: 20px;
         }
 
-        #favorite_skill h2{
+        h2{
             color: hotpink;
         }
 
-        #favorite_skill hr{
+        hr{
             background-color: hotpink;
             height: 2px;
             border: none;
@@ -71,21 +71,42 @@
         }
 
         #favorite_skill p.a {
-        background-color: cyan;
+            background-color: cyan;
         }
 
         #favorite_skill p.b {
-        background-color: hotpink;
+            background-color: hotpink;
         }
 
         #favorite_skill p.c {
-        background-color: purple;
-        color: white;
+            background-color: purple;
+            color: white;
         }
 
         #favorite_skill p.d {
-        background-color: yellow;
+            background-color: yellow;
         }
+
+        #introduce {
+            background-color: lightgray;
+            margin: 20px;
+            border: 3px solid plum;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        #introduce_text {
+            color: gray;
+        }
+
+        #contact {
+            background-color: lightgray;
+            margin: 20px;
+            border: 3px solid plum;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
 
         
 
@@ -102,8 +123,8 @@
         <img src="고양이이미지.webp" alt="프로필 사진" id="profile_image">
         <div>
             <h3>김완</h3>
-            <p>전공: 컴퓨터소프트웨어전공</p>
-            <p>관심분야: HTML / CSS / JavaScript</p>
+            <p id="introduce_text">전공: 컴퓨터소프트웨어전공</p>
+            <p id="introduce_text">관심분야: HTML / CSS / JavaScript</p>
         </div>
         
     </div>
@@ -116,6 +137,22 @@
         <p class="c">JavaScript</p>
         <p class="d">Git</p>
         
+    </div>
+
+    <div id="introduce">
+        <h2>자기소개</h2>
+        <hr>
+        <p id="introduce_text">
+            웹 프로그래밍을 공부하고 있습니다. HTML과 CSS를 사용하여 웹페이지의 구조와 디자인을 구현하는 방법을 학습하고 있습니다. 다양한 CSS속성과 선택자를 사용하여 웹페이지의 디자인을 자유롭게 변경할 수 있습니다.
+        </p>
+        <p id="introduce_text">
+            앞으로 JavaScript와 React까지 학습하여 사용자와 상호작용할 수 있는 다양한 웹 서비스를 개발하는 것이 목표입니다.
+        </p>
+    </div>
+
+    <div id="contact">
+        <h2>문의하기</h2>
+        <hr>
     </div>
 
 </body>
