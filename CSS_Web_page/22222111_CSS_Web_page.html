@@ -8,8 +8,8 @@
         body {
             width: 700px;
             height: 1000px;
-            background-color: lightgray;
-
+            background-color: gainsboro;
+            
             border: 5px solid plum;
             border-radius: 20px;
         }
@@ -17,6 +17,7 @@
         #header {
             background-color: skyblue;        
             text-align: center;
+            color: hotpink;
             padding: 40px 20px;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
@@ -24,6 +25,7 @@
 
         #profile{
             background-color: lightblue;
+            border: 3px solid plum;
             border-radius: 15px;
             padding: 20px;
             display: flex;
@@ -41,6 +43,50 @@
             object-fit: cover;
             border: 3px solid plum;
         }
+
+        #favorite_skill {
+            background-color: lightgray;
+            margin: 20px;
+            border: 3px solid plum;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        #favorite_skill h2{
+            color: hotpink;
+        }
+
+        #favorite_skill hr{
+            background-color: hotpink;
+            height: 2px;
+            border: none;
+        }
+
+        #favorite_skill p{
+            display: inline-block;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 5px;
+        }
+
+        #favorite_skill p.a {
+        background-color: cyan;
+        }
+
+        #favorite_skill p.b {
+        background-color: hotpink;
+        }
+
+        #favorite_skill p.c {
+        background-color: purple;
+        color: white;
+        }
+
+        #favorite_skill p.d {
+        background-color: yellow;
+        }
+
         
 
 
@@ -59,6 +105,16 @@
             <p>전공: 컴퓨터소프트웨어전공</p>
             <p>관심분야: HTML / CSS / JavaScript</p>
         </div>
+        
+    </div>
+
+    <div id="favorite_skill">
+        <h2>관심 기술</h2>
+        <hr>
+        <p class="a">HTML</p>
+        <p class="b">CSS</p>
+        <p class="c">JavaScript</p>
+        <p class="d">Git</p>
         
     </div>
 
