@@ -7,11 +7,11 @@
     <style>
         body {
             width: 700px;
-            height: 1400px;
+            height: 1320px;
             background-color: gainsboro;
-            
             border: 5px solid plum;
             border-radius: 20px;
+            margin: 30px auto;
         }
 
         #header {
@@ -105,9 +105,55 @@
             border: 3px solid plum;
             border-radius: 15px;
             padding: 20px;
+            
         }
 
+        input[type="text"]{
+            background-color: yellow;
+        }
 
+        input[type="email"]{
+            background-color: lightblue;
+        }
+
+        label{
+            display: inline-block;
+            width: 80px;
+            font-weight: bold;
+        }
+
+        #contact_input {
+            border-radius: 7px;
+            margin-bottom: 15px;
+            width: 250px;
+            height: 30px;
+        }
+
+        #contact_button {
+            background-color: hotpink;
+            color: black;
+            width: 140px;
+            font-weight: bold;
+            border: 2px solid cyan;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-left: 80px;
+        }
+        
+        #contact_button:hover {background-color: cyan;}
+        #contact_button:active {background-color: purple;}
+
+        #bottom {
+            background-color: skyblue;        
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            height: 40px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            margin-top: 53px;
+            margin-bottom: 0px;
+        }
         
 
 
@@ -153,6 +199,21 @@
     <div id="contact">
         <h2>문의하기</h2>
         <hr>
+        <label>
+            이름
+        </label>
+        <input id="contact_input" type="text" placeholder="이름을 입력하세요">
+        <br>
+        <label>
+            이메일
+        </label> 
+        <input id="contact_input" type="email" placeholder="이메일을 입력하세요">
+        <br>
+        <input id="contact_button" type= "submit" value="문의하기">
+    </div>
+
+    <div id="bottom">
+        <p>2026 Web Programming Practice</p>
     </div>
 
 </body>
