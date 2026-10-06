@@ -1,0 +1,16 @@
+.container_01 {
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.item_01 {
+    float: left;
+    border: 3px solid pink;
+    margin: 3px;
+    padding: 10px;
+}
+
+.margin_02 {
+    margin: 0 auto;
+    width: 500px;
+}

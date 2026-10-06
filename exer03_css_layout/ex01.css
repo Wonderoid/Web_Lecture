@@ -1,0 +1,39 @@
+.title {
+    overflow: hidden;
+}
+
+
+.title2 {
+    float: left;
+    margin: 10px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.container {
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+.text01 {
+    border: 2px solid black;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.text02 {
+    border: 2px solid black;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.text03 {
+    text-align: center;
+}
